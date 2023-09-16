@@ -1,0 +1,37 @@
+.appBar {
+    display: flex; /* Display child elements horizontally */
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 1vh 1.5vw;
+    background-color: #3d3030;
+    z-index: 1;
+} 
+  
+/* @media (max-width: 1250px) {
+    .appBar {
+        min-width: 800px;
+    }
+} */
+
+.appBar > .appBar-name {
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.portfolio-links {
+    display: flex;
+}
+  
+.portfolio-links > p {
+
+    padding: 0 1vw 0 0;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: color 0.3s;
+    &:hover {
+        color: #cc1d10;
+    }
+}

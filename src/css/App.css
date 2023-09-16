@@ -28,6 +28,16 @@
   color: #61dafb;
 }
 
+.app-container {
+  /* display: flex; */
+  flex-direction: column;
+  position: relative;
+  /* background-color:#202224 */
+  width: 100%;
+
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +46,5 @@
     transform: rotate(360deg);
   }
 }
+
+

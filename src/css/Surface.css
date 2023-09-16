@@ -1,0 +1,41 @@
+.surfaceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    cursor: pointer;
+    border: 3px solid #3b3434;
+    border-radius: 10px;
+    height: 90%;
+    width: 90%;
+    padding: 0 15px;
+    /* font-size: 50px */
+    /* background-color: #4c5057; */
+    position: relative;
+    transition: color 0.3s;
+    min-height: 350px;
+    
+    &:hover {
+        color: #bf3930;
+    }
+}
+
+.surface-image {
+    padding-top: 8%;
+    max-width: 95%;
+    height: 65%;
+    margin-bottom: 3%;
+}
+
+.surface-name {
+    font-size: 1.4rem;
+    /* margin-bottom: 3%; */
+    text-align: center;
+    margin: 0 0;
+}
+
+.surface-description-short {
+    font-size: 1rem;
+    text-align: center;
+}
