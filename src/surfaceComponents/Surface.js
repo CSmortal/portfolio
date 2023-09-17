@@ -17,9 +17,11 @@ export default function Surface(props) {
 
   }
 
+  // for the img element, we must prefix it with the process.env.PUBLIC_URL because
+
   return (
     <div className="surfaceContainer" onClick={handleClickSurface}>
-      <img className="surface-image" src={image}/>
+      <img className="surface-image" src={`${process.env.PUBLIC_URL}/${image}`}/>
       <h2 className="surface-name">{name}</h2>
       <p className="surface-description-short">{description_short}</p>
     </div>

@@ -8,19 +8,17 @@ import SchoolProjectDetail from './detailComponents/SchoolProjectDetail';
 
 function App() {
   
-
-
   return (
     <div className='app-container'>
       <AppBar />
 
 
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route index element=<AllProjects/> />
-          <Route path='/workDetail' element=<WorkDetail/> />
-          <Route path='/personalProjDetail' element=<PersonalProjectDetail/> />
-          <Route path='/schoolProjDetail' element=<SchoolProjectDetail/> />
+          <Route path='workDetail' element=<WorkDetail/> />
+          <Route path='personalProjDetail' element=<PersonalProjectDetail/> />
+          <Route path='schoolProjDetail' element=<SchoolProjectDetail/> />
         </Routes>
       </BrowserRouter>
     </div>

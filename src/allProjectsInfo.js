@@ -2,6 +2,8 @@ export const allPersonalProjects = []
 export const allSchoolProjects = []
 export const allWorks = []
 
+// all images should use relative paths instead of absolute paths. So then the final path would be "{domain nam}/{basename declared in BrowserRouter which is in this case "/portfolio"}/{image}"
+
 allPersonalProjects.push(
     {   "type": "P",
         "name": "PollAndVote",
@@ -17,7 +19,7 @@ allPersonalProjects.push(
         "url": "https://pollandvote.csmortal.store",
         "repository": "https://github.com/CSmortal/PollAndVote",
         "status": "Deployed, with planned improvements",
-        "image": "/PollAndVote.PNG"
+        "image": "PollAndVote.PNG"
     }
 )
 
@@ -36,7 +38,7 @@ allPersonalProjects.push(
       "url": "",
       "repository": "https://github.com/CSmortal/JovenGrabsFood",
       "status": "Yet to deploy",
-      "image": ""
+      "image": "JovenGrabsFood.PNG"
     }
 )
 
@@ -53,7 +55,7 @@ allPersonalProjects.push(
     "url": "",
     "repository": "https://github.com/CSmortal/QuerIt",
     "status": "Finished, but not deployed",
-    "image": "/QuerIt.png"
+    "image": "QuerIt.png"
   }
 )
 
@@ -72,7 +74,7 @@ allSchoolProjects.push(
     ],
     "url": "",
     "repository": "https://github.com/CSmortal/MeetCode",
-    "image": "/MeetCode.png"
+    "image": "MeetCode.png"
   }
 )
 
@@ -90,7 +92,7 @@ allWorks.push(
       "otherTech": [],
       "url": "The repository is private, the link below is for the user guide I wrote",
       "repository": "https://github.com/temideveloper/Rs-App-Guides/tree/master/TemiAnnouncer",
-      "image": "/TemiAnnouncer.jpg"
+      "image": "TemiAnnouncer.jpg"
     }
 )
 
@@ -107,7 +109,7 @@ allWorks.push(
     "otherTech": [],
     "url": "The repository is private, the link below is for the user guide I wrote",
     "repository": "https://github.com/temideveloper/Rs-App-Guides/tree/master/TemiConcierge",
-    "image": "/TemiConcierge.gif"
+    "image": "TemiConcierge.gif"
   }
 )
 
@@ -126,6 +128,6 @@ allWorks.push(
     ],
     "url": "",
     "repository": "Private",
-    "image": "/DateIdeas.PNG"
+    "image": "DateIdeas.png"
   }
 )

@@ -4,9 +4,11 @@
     align-items: center;
     position: sticky;
     top: 0;
-    padding: 1vh 1.5vw;
+    padding: 1vh 0vw;
+
     background-color: #3d3030;
     z-index: 1;
+    width: 100vw;
 } 
   
 /* @media (max-width: 1250px) {
@@ -18,15 +20,19 @@
 .appBar > .appBar-name {
     font-size: 1.1rem;
     font-weight: bolder;
+    padding-left: 2%;
 }
 
 .portfolio-links {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2%;
 }
   
 .portfolio-links > p {
 
-    padding: 0 1vw 0 0;
+    padding: 0 1.8vw 0 0;
     font-size: 0.9rem;
     font-weight: bolder;
     cursor: pointer;

@@ -3,6 +3,7 @@ import Surface from './surfaceComponents/Surface';
 import "./css/AllProjects.css"
 
 export default function AllProjects() {
+
   return (
     <div className="allProjects-container">
 

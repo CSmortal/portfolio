@@ -23,6 +23,7 @@
     text-align: center;
     animation: colorChange 5s infinite;
   }
+
   
   .intro-desc {
     margin-bottom: 5vh;;
@@ -32,8 +33,6 @@
     text-align: center;
   }
   
-
-
   .projectsContainer {
     margin: 0 auto;
     border-style: inset dashed double dashed;
@@ -46,19 +45,7 @@
     padding: 0 3vw;
   }
 
-  @media (max-width: 1250px) {
-    .projectsContainer {
-      /* margin: auto 20%; */
 
-      /* padding: 0 3vw; */
-      /* margin: 0 100px 10vh 0; */
-      /* min-width: 1000px; */
-      margin: 0 auto;
-      margin-bottom: 10vh;
-      min-width: 420px;
-
-    }
-  }
 
   
   .projectsContainer > .projectsType-title {
@@ -90,9 +77,6 @@
   }
   
   
-  
-  
-  
   hr {
     background-color: white;
     height: 1.5px;
@@ -103,5 +87,51 @@
   
   .spaceAtEnd {
     height: 45vh;
+  }
+
+  @media (max-width: 1250px) {
+    .projectsContainer {
+      /* margin: auto 20%; */
+
+      /* padding: 0 3vw; */
+      /* margin: 0 100px 10vh 0; */
+      /* min-width: 1000px; */
+      margin: 0 auto;
+      margin-bottom: 10vh;
+      max-width: 90%;
+
+    }
+  }
+
+  @media(max-width: 720px) {
+    .intro-name {
+      margin-top: 15vh;
+      margin-bottom: 15vh;
+      font-size: 3.5rem;
+      padding: 0 10%;
+      text-align: center;
+      animation: colorChange 5s infinite;
+    }
+
+    .intro-desc {
+      font-size: 1rem;
+      padding: 0 10%
+    }
+
+    .projectsContainer {
+      max-width: 88%
+    }
+
+    .projectsContainer > .projectsType-title {
+      font-size: 2rem;
+    }
+
+    .surface-name {
+      font-size: 1.2rem;
+    }
+
+    .surface-description-short {
+      font-size: 0.9rem;
+    }
   }
   

@@ -30,7 +30,8 @@
 
 @media (max-width: 600px) {
     .grid-item-workDetail > .back-button {
-        left: 5%;
+        height: 35px;
+        left: 3%;
     }
 }
 
@@ -277,4 +278,8 @@
     &:hover {
         color: #cc1d10;
     }
+}
+
+.section_desc > .clickableLink.clicked {
+    color: inherit; /* Inherit the parent text color */
 }

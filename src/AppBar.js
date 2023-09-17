@@ -3,7 +3,7 @@ import "./css/AppBar.css"
 export default function AppBar() {
 
   const handleOpenResume= () => {
-    window.open("/Resume - Joven Pua Zai Xiong.pdf")
+    window.open(`${process.env.PUBLIC_URL}/Resume - Joven Pua Zai Xiong.pdf`)
   }
 
   const handleGoToGithub = () => {
@@ -21,7 +21,7 @@ export default function AppBar() {
   return (
     <div className='appBar'>
 
-      <h2 className="appBar-name">{"<Joven Pua class=CSmortal />"}</h2>
+      <h2 className="appBar-name">{"<Joven Pua/>"}</h2>
 
       <div className="portfolio-links">
 
