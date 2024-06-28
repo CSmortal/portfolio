@@ -128,7 +128,9 @@ export default function WorkDetail() {
         </div>
       </div>
 
-      
+      <div className="spacer_at_detail_end">
+
+      </div>
 
     </div>
   )

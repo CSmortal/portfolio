@@ -30,6 +30,10 @@
     padding-right: 2%;
 }
   
+.portfolio-links > p.clicked {
+    color: white; /* Inherit the parent text color */
+}
+
 .portfolio-links > p {
 
     padding: 0 1.8vw 0 0;
@@ -41,3 +45,5 @@
         color: #cc1d10;
     }
 }
+/* The p.clicked must be declared before the .portfolio-links > p, if not after clicking any of the p elements, hovering over them wont make them red, due to css declaration order */
+

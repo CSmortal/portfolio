@@ -14,11 +14,11 @@ allPersonalProjects.push(
         ],
         "otherTech": [
             "Docker",
-            "AWS ECR/ECS/Route 53/RDS/S3/CloudFront/CodeBuild/CodePipeline"
+            "AWS ECR/ECS/Route 53/RDS/S3/CloudFront"
         ],
         "url": "https://pollandvote.csmortal.store",
         "repository": "https://github.com/CSmortal/PollAndVote",
-        "status": "Deployed, with planned improvements",
+        "status": "Deployed before, but now inactive",
         "image": "PollAndVote.PNG"
     }
 )

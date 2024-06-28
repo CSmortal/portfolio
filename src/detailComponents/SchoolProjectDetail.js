@@ -127,7 +127,9 @@ export default function SchoolProjectDetail() {
         </div>
       </div>
 
-      
+      <div className="spacer_at_detail_end">
+
+      </div>
 
     </div>
   )
