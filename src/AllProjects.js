@@ -12,14 +12,27 @@ export default function AllProjects() {
 
       <div className="intro-desc">
         <p>
-            I am a fresh Computer Science undergraduate at the National University of Singapore (NUS).
+            Hello! I am a passionate software engineer with 1 year of professional experience in Spring, Java and MySQL.
         </p>
-        {/* <p>
-            During my free time, I enjoy my fair share of combat-heavy games, K-pop, as well as learn new software development technologies to stay competitive.
-        </p> */}
+
         <p>
-          I am passionate in building mobile and web applications, and I am interested in backend/full-stack software engineering roles.
+           I have a keen interest in building web applications, and enjoy solving complex problems through innovative solutions.
         </p>
+
+        <p>
+           Currently, I am working at CrimsonLogic Pte Ltd (contracted by Evo Outsourcing Solutions Pte Ltd) as a Software Engineer where I maintain and improve a web application (for a foreign judiciary) that
+          digitalises legal case filing. 
+        </p>
+
+        <p>
+          During my time in my current role, I have created new workflows to model complex business logic for filing new legal cases, 
+          as well as fixed errors in production such as incorrect statistical reports and application errors resulting from more complex permutations in the legal case.
+        </p>
+
+        <p>
+          I have also had previous work experiences which you can view in my resume attached.
+        </p>
+
         <p>
           Feel free to scroll down and view the projects I have done.
         </p>
