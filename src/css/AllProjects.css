@@ -26,11 +26,27 @@
 
   
   .intro-desc {
-    margin-bottom: 5vh;;
+    margin-bottom: 6vh;
+  }
+
+  .intro-desc p:not(:first-child) {
+    margin-top: 4vh;
+  }
+
+  .intro-desc p:not(:last-child) {
+    margin-bottom: 4vh;
   }
   
   .intro-desc > p {
     text-align: center;
+  }
+
+  @media (min-width: 768px) {
+    .intro-desc {
+      width: 50vw;
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
   
   .projectsContainer {

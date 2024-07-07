@@ -128,6 +128,6 @@ allWorks.push(
     ],
     "url": "",
     "repository": "Private",
-    "image": "DateIdeas.png"
+    "image": "DateIdeas.PNG"
   }
 )
